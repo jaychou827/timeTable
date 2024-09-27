@@ -1,8 +1,10 @@
-# timeTable
+# 微信课程表
 
 #### 简介
 
 ###### 这是一款在线的微信课程表提醒系统
+
+###### 基于wcferry库开发
 
 ###### 会根据users.csv和table.csv俩个文件进行主动和被动的上课提醒
 
@@ -37,4 +39,14 @@
 ###### user.csv			课程信息
 
 ###### tables.csv			课程表图片与用户配对信息
+
+
+
+## 使用方法
+
+1. 安装依赖库：`pip install wcferry`
+2. 将user.csv和tables.csv文件放在同一目录下。
+3. 运行main.py启动程序。
+4. 使用test.py获取指定用户的wxid。
+5. 在微信中向指定的wxid发送关键字“课表”，即可收到对应的课程表图片。
 
