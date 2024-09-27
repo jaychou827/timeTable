@@ -1,0 +1,1 @@
+int 星期几, string 课程名, string 教室, time 课程开始时间, time 课程结束时间, string 称呼, string wxid
